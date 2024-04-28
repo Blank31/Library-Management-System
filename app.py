@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for, flash,json
 from flask_mysqldb import MySQL
 
 app = Flask(__name__)
-app=app.server
+server=app.server
 app.secret_key = 'prit_dhabaliya' 
 # MySQL configurations
 app.config['MYSQL_HOST'] = 'localhost'
