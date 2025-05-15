@@ -75,6 +75,4 @@ I is a robust SQL-based backend system for managing virtual book storage with su
    cd VirtualBookStorage
 
 🔗[Website Link]: https://mjp5.pythonanywhere.com/  (Might not work cause of free subscription.)
-
-![image](https://github.com/user-attachments/assets/4e12922e-0227-4ea9-8302-36d7934ec68e)
-[YouTube_Link]: https://youtu.be/_X-AOarMyaw
+:youtube:[YouTube_Link]: https://youtu.be/_X-AOarMyaw
