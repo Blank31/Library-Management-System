@@ -74,6 +74,6 @@ I is a robust SQL-based backend system for managing virtual book storage with su
    git clone https://github.com/Blank31/VirtualBookStorage.git
    cd VirtualBookStorage
 
-🔗[Website Link]: https://mjp5.pythonanywhere.com/  (Might not work cause of free subscription.)
+🔗Website Link: https://mjp5.pythonanywhere.com/  (Might not work cause of free subscription.)
 
-[YouTube_Link]: https://youtu.be/_X-AOarMyaw
+YouTube_Link: https://youtu.be/_X-AOarMyaw
