@@ -1,5 +1,4 @@
 -- Insert queries for Author table
--- These query is written by Rasaghna
 INSERT INTO Authors (AuthorName, LanguageCode, AuthorRating)
 SELECT DISTINCT Author, language_code, Author_Rating
 FROM sample_data;
@@ -18,7 +17,7 @@ INSERT INTO Authors (AuthorName, LanguageCode, AuthorRating) VALUES
 
 select * from Authors order by AuthorID;
 
--- These query is written by Harsh 
+
 -- Insert queries for Genre table
 INSERT INTO Genres (GenreName)
 SELECT DISTINCT genre
@@ -32,7 +31,7 @@ INSERT INTO Genres (GenreName) VALUES ('Afrofuturism');
 
 select * from Genres order by GenreID;
 
--- These query is written by Harsh
+
 -- Insert queries for Publisher table
 INSERT INTO Publishers (PublisherName)
 SELECT DISTINCT Publisher
@@ -57,7 +56,7 @@ INSERT INTO Publishers (PublisherName) VALUES ('Timefold Books');
 
 select distinct * from Publishers ;
 
--- -- These query is written by Harsh
+
 -- Insert queries for Books table
 INSERT INTO Books (Title, AuthorID, GenreID, PublishingYear, AverageRating, RatingsCount, PublisherID, SalePrice, SalesRank)
 SELECT temp.`Book Name`, a.AuthorID, g.GenreID, temp.`Publishing Year`, temp.Book_average_rating, temp.Book_ratings_count, p.PublisherID, temp.`sale price`, temp.`sales rank`
@@ -100,7 +99,6 @@ VALUES ("The Final Frontier: A New Dawn", 98, 8, 2023, 4.6, 134, 19, 20.99, 10);
 select * from Books;
 
 
--- These query is written by Rasaghna
 -- Insert queries for Transaction table
 INSERT INTO Transactions (BookID ,GrossSales, PublisherRevenue, UnitsSold)
 SELECT 
