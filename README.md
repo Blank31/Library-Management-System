@@ -64,6 +64,7 @@ I is a robust SQL-based backend system for managing virtual book storage with su
 | Publishers | ![Publishers](assets/publishers_output.png) |
 | Books | ![Books](assets/books_output.png) |
 | Transactions | ![Transactions](assets/transactions_output.png) |
+| Website | ![Website](assets/website.png)
 
 ---
 
