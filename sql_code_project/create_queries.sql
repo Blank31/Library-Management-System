@@ -1,4 +1,3 @@
--- The table is created by Prit
 -- Authors Table
 CREATE TABLE Authors (
     AuthorID INT AUTO_INCREMENT PRIMARY KEY,
@@ -7,21 +6,18 @@ CREATE TABLE Authors (
     AuthorRating VARCHAR(20) NOT NULL
 );
 
--- The table is created by Prit
 -- Genres Table
 CREATE TABLE Genres (
     GenreID INT AUTO_INCREMENT PRIMARY KEY,
     GenreName VARCHAR(255) NOT NULL
 );
 
--- The table is created by Prit
 -- Publishers Table
 CREATE TABLE Publishers (
     PublisherID INT AUTO_INCREMENT PRIMARY KEY,
     PublisherName VARCHAR(255) NOT NULL
 );
 
--- The table is created by Prit
 -- Books Table
 CREATE TABLE Books (
     BookID INT AUTO_INCREMENT PRIMARY KEY,
@@ -39,7 +35,6 @@ CREATE TABLE Books (
     FOREIGN KEY (PublisherID) REFERENCES Publishers(PublisherID)
 );
 
--- The table is created by Rasaghna
 -- Transactions Table
 CREATE TABLE Transactions (
     TransactionID INT AUTO_INCREMENT PRIMARY KEY,
@@ -50,7 +45,6 @@ CREATE TABLE Transactions (
     FOREIGN KEY (BookID) REFERENCES Books(BookID)
 );
 
--- Constraints are given by Prit
 -- Unique Constraint on AuthorName in Authors Table
 ALTER TABLE Authors ADD CONSTRAINT UQ_AuthorName UNIQUE (AuthorName);
 
