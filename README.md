@@ -20,7 +20,7 @@ I is a robust SQL-based backend system for managing virtual book storage with su
 
 ## 🛠️ Tech Stack
 
-- Java / Python / Node.js *(edit as per your project)*
+- Java / Python / Node.js
 - MySQL / PostgreSQL for database
 - Swing / JavaFX / Web front-end
 - Git & GitHub for version control
