@@ -3,7 +3,6 @@
 A modern and user-friendly Library Management System built using Java (or your tech stack). Easily manage books, members, and borrowing history from one central interface.
 I is a robust SQL-based backend system for managing virtual book storage with support for authors, genres, publishers, and sales transactions.
 
-> 📁 Project for Advanced Database Technologies, Team: **Data Bandits (Group 6)**
 
 ---
 
